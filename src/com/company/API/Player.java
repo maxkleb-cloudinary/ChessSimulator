@@ -15,7 +15,7 @@ public interface Player {
      * This interface supposed to support both human and machine player's implementation.
      *
      * @param prevMove - last legal move
-     * @return current legal move
+     * @return next legal move
      */
     Pair<Spottible, Spottible> nextMove(Pair<Spottible, Spottible> prevMove);
     boolean isWhiteSide();
